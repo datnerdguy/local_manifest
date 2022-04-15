@@ -7,7 +7,7 @@
   <remote name="pzqqt"
           fetch="https://github.com/Pzqqt" />
   <remote name="edwin"
-          fetch="https://gitlab.com/EdwinMoq" />
+          fetch="https://github.com/EdwinMoq" />
 
   <!-- Trees -->
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="nerdaf" revision="staging" />
