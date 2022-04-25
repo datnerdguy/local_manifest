@@ -10,16 +10,16 @@
           fetch="https://github.com/EdwinMoq" />
 
   <!-- Trees -->
-  <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="nerdaf" revision="staging" />
+  <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="nerdaf" revision="potato-12" />
   <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="nerdaf" revision="twelve-4.19" />
 
   <!-- Kernel -->
   <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred-4.19" remote="pzqqt" revision="panda" />
 
   <!-- Remove Hals -->
-  <remove-project name="xd_hardware_qcom-caf_audio" />
-  <remove-project name="xd_hardware_qcom-caf_display" />
-  <remove-project name="xd_hardware_qcom-caf_media" />
+  <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_hardware_qcom_media" />
 
   <!-- Add Hals -->
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="edwin" revision="sdm660-4.19" />
