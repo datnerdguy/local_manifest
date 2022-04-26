@@ -8,7 +8,7 @@
           fetch="https://github.com/Pzqqt" />
   <remote name="edwin"
           fetch="https://github.com/EdwinMoq" />
-  <remote name="potato"
+  <remote name="potatocrunchymmm"
           fetch="https://gitlab.com/potatodevices" />
   <remote name="pissel"
           fetch="https://github.com/Ardjlon/vendor_PixelLauncher/" />
@@ -36,7 +36,7 @@
   <!-- Add legacy-um -->
   <!-- <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="edwin" revision="lineage-19.0-legacy-um" /> -->
 
-  <project path="vendor/google/gms" name="vendor_google_gms" remote="potato" revision="frico_mr1-release" /> 
+  <project path="vendor/google/gms" name="vendor_google_gms" remote="potatocrunchymmm" revision="frico_mr1-release" /> 
   <project path="vendor/PixelLauncher" remote="pissel" revision="khonsu" /> 
 
 </manifest>
