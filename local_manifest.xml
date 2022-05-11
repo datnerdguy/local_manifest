@@ -6,8 +6,6 @@
           fetch="https://github.com/datnerdguy" />
   <remote name="edwin"
           fetch="https://github.com/edwinmoq" />
-  <remote name="lineage"
-          fetch="https://github.com/lineageos" />
 
   <!-- Trees -->
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="nerdaf" revision="staging" />
