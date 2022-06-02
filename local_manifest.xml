@@ -9,7 +9,7 @@
 
   <!-- Trees -->
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="nerdaf" revision="staging" />
-  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="nerdaf" revision="twelve-4.19" />
+  <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="nerdaf" revision="twelve-4.19" />
 
   <!-- Nice -->
   <remove-project name="xd_hardware_qcom-caf_audio" />
