@@ -28,4 +28,6 @@
 
   <project path="official-settings" name="sign" remote="hellothere" revision="master" />
   
+  <remove-project name="xd_frameworks_base" />
+  <project path="frameworks/base" name="xd_frameworks_base" remote="nerdaf" revision="twelve" /> 
 </manifest>
