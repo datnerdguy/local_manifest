@@ -10,7 +10,7 @@
           fetch="https://github.com/prango71" />
 
   <!-- Trees -->
-  <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="nerdaf" revision="staging" />
+  <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="nerdaf" revision="xdroid" />
   <project path="vendor/xiaomi/whyred" name="vendor_xiaomi_whyred" remote="nerdaf" revision="twelve-4.19" />
 
   <!-- Nice -->
@@ -28,6 +28,4 @@
 
   <project path="official-settings" name="sign" remote="hellothere" revision="master" />
   
-  <remove-project name="xd_frameworks_base" />
-  <project path="frameworks/base" name="xd_frameworks_base" remote="nerdaf" revision="twelve" /> 
 </manifest>
